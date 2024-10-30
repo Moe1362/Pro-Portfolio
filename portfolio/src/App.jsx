@@ -6,10 +6,18 @@ import Skills from './containers/skills'
 import Resume from './containers/resume'
 import Portfolio from './containers/portfolio'
 import Contact from './containers/contact'
+import Navbar from './components/navBar'
 
 function App() {
   return (
     <>
+    {/* particles js */}
+
+
+    {/* navbar */}
+    <Navbar />
+
+    {/* main page content */}
       <Routes>
         <Route index path='/' element={<Home/>} />
         <Route path='/about' element={<About />} />
